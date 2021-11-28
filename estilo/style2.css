@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+
+
+}
+
+:root {
+    --cor0:#19CEE0;
+    --cor1:#3B818F;
+    --cor2:blue;
+
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Ultra', serif;
+    
+
+
+
+
+
+}
+
+h1 {
+    font-family: var(--fonte-destaque);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.219);
+    color:black;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center; 
+    margin-top:30px ;
+
+
+
+    
+    
+
+
+}
+
+header p {
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.219);
+    color:black;
+    font-family: var(--fonte-padrao);
+    font-size: 20px;
+    text-indent: 5px;
+    text-justify:10px;
+    line-height: 30px;
+
+
+
+
+}
+
+header {
+    background-color: var(--cor0);
+    min-height: 50px;
+    padding-top:30px;
+    text-align: center;
+    
+
+}
+
+nav {
+    background-color: var(--cor1);
+    padding:10px;
+    box-shadow:0px 7px 7px rgba(0, 0, 0, 0.281);
+    text-align: center;
+
+}
+
+nav a {
+    padding:10px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius: 5px;
+    transition-duration:.5s;
+    
+    
+    
+
+    
+    
+
+}
+a:hover {
+    background-color: var(--cor0);
+    color:var(--cor1);
+    
+}
+
+body {
+    font-family: var(--font-destaque);
+    background-color: var(--cor0);
+}
+
+footer {
+    background-color: black;
+    color:blue;
+    text-align: center;
+    text-decoration: none;
+    margin-top:30px;
+}
+
+#ai:hover {
+    background-color: transparent;
+    
+    
+
+    
+
+        
+}
+
+main p {
+    margin-bottom:10px;
+
+}
+
+main {
+    max-width: 1100px;
+    max-height: 1100px;
+    background-color: white;
+    margin-bottom: 400px;
+    margin:auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+img {
+    width : 100%;
+    margin-top:30px;
+}
+
+#res {
+    margin-top: 20px;
+}
+
+.redes ul li {
+    margin-left:25px;
+    display:inline-block;
+    float:left;
+    list-style:none;
+    
+    margin-top:10px;
+    
+    
+
+}
+
+.redes {
+    width:25%;
+    text-align: center;
+    width:30%;
+    background-color: transparent;
+    
+    
+    
+    
+}
+
+.busca {
+    text-align: center;
+    width:30%;
+    float:right;
+}
+
+.busca input {
+    background-image: url('../imagens/icone-search.png');
+    background-repeat:no-repeat;
+    height:10px;
+    padding:5px;
+    max-width:190px;
+    margin-top:40px;
+    background-position:96%;
+    border: 1px solid;
+    margin-left: 50px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
